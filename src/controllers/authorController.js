@@ -10,4 +10,4 @@ const createAuthor= async function (req, res) {
     res.send({data: savedData})
 }
 
-module.exports.createAuthor= createAuthor
+module.exports.createAuthor= createAuthor;
